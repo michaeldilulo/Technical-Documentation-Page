@@ -8,10 +8,13 @@ body {
     padding: 0;
 }
 
+p {
+  font-size: 19px;
+}
 
 @media(min-width: 401px) {
 /* Sidebar */
-.sidenav {
+.sidenav  {
   height: auto; /* Full-height: remove this if you want "auto" height */
   width: 350px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -67,6 +70,10 @@ a.techDoc-sidebar-reference {
     border-bottom: none;
 }
 
+a.nav-link.techDoc-sidebar-reference {
+  padding-bottom: 120px;
+}
+
 }
 
 
@@ -78,8 +85,8 @@ a.techDoc-sidebar-reference {
 .sidenav {
   height: 40%; /* Full-height: remove this if you want "auto" height */
   width: 100%; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */ 
+   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
   background-color: #fff; /* White */
@@ -101,7 +108,7 @@ a.nav-link:nth-child(1) {
 }
 
 .main {
-  margin-left: 350px; /* Same as the width of the sidebar */
+   margin-left: 350px; /* Same as the width of the sidebar */ 
   padding: 0px 10px;
 }
 
@@ -123,5 +130,14 @@ h2.tecDoc-sidebar-header {
 
 #techDocPageLinks.sidenav {
     border-bottom: 4px solid black;
+}
+
+#main-doc {
+  margin-top: 440px;
+  margin-left: -340px;
+}
+
+p {
+  margin-bottom: 0;
 }
 }

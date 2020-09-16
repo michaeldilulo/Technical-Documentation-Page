@@ -15,35 +15,136 @@
         <nav id="navbar">
             <!-- Side navigation -->
             <div class="sidenav" id="techDocPageLinks">
-                <h2 class="tecDoc-sidebar-header">JS Documentation</h2>
-                <a href="#techDocIntroduction" class="nav-link">Introduction</a>
-                <a href="#techDocGrammar" class="nav-link">Grammar and Types</a>
-                <a href="#techDocControl" class="nav-link">Control Flow & Error Handling</a>
-                <a href="#techDocLoops" class="nav-link">Loops and Iteration</a>
-                <a href="#techDocFunctions" class="nav-link">Functions</a>
-                <a href="#techDocExpressions" class="nav-link">Expressions and Operators</a>
-                <a href="#techDocNumbers" class="nav-link">Numbers and Dates</a>
-                <a href="#techDocFormatting" class="nav-link">Text Formatting</a>
-                <a href="#techDocIndexed" class="nav-link">Indexed Collections</a>
-                <a href="#techDocKeyed" class="nav-link">Keyed Collections</a>
-                <a href="#techDocObjects" class="nav-link">Working with Objects</a>
-                <a href="#techDocModel" class="nav-link">Details: Object Model</a>
-                <a href="#techDocPromises" class="nav-link">Promises</a>
-                <a href="#techDocIterators" class="nav-link">Iterators and Generators</a>
-                <a href="#techDocMeta" class="nav-link">Meta programming</a>
-                <a href="#techDocModules" class="nav-link">JavaScript Modules</a>
-                <a href="#techDocReferences" class="nav-link techDoc-sidebar-reference">References</a>
+                <header class="tecDoc-sidebar-header" id="JS_Documentation">JS Documentation</header>
+                <a href="#Introduction" class="nav-link">Introduction</a>
+                <a href="#Grammar_and_Types" class="nav-link">Grammar and Types</a>
+                <a href="#Control_Flow_and_Error_Handling" class="nav-link">Control Flow and Error Handling</a>
+                <a href="#Loops_and_Iteration" class="nav-link">Loops and Iteration</a>
+                <a href="#Functions" class="nav-link">Functions</a>
+                <a href="#Expressions_and_Operators" class="nav-link">Expressions and Operators</a>
+                <a href="#Numbers_and_Dates" class="nav-link">Numbers and Dates</a>
+                <a href="#Text_Formatting" class="nav-link">Text Formatting</a>
+                <a href="#Indexed_Collections" class="nav-link">Indexed Collections</a>
+                <a href="#Keyed_Collections" class="nav-link">Keyed Collections</a>
+                <a href="#Working_with_Objects" class="nav-link">Working with Objects</a>
+                <a href="#Object_Model" class="nav-link">Object Model</a>
+                <a href="#Promises" class="nav-link">Promises</a>
+                <a href="#Iterators_and_Generators" class="nav-link">Iterators and Generators</a>
+                <a href="#Meta_Programming" class="nav-link">Meta Programming</a>
+                <a href="#JavaScript_Modules" class="nav-link">JavaScript Modules</a>
+                <a href="#References" class="nav-link techDoc-sidebar-reference">References</a>
             </div>
         </nav>
     </header>
 
     <main id="main-doc">
-        <!-- Page content -->
-        <div class="main">
-            <!-- ... -->
+        <div>
+            <section class="main main-section" id="Introduction">
+                <h1 id="Introduction">Introduction</h1>
+                <p>This chapter introduces JavaScript and discusses some of its fundamental concepts</p>
+                <div>
+                    <h3>What you should already know</h3>
+                    <p>This guide assumes you have the following basic background</p>
+                    <ul>
+                        <li>A general understanding of the Internet and the World Wide Web(WWW)</li>
+                        <li>Good working knowledge of HyperText Markup Language(HTML)</li>
+                        <li>Some programming experience. If you are new to programming, you should try out a tutorial
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Where to find JavaScript Information</h3>
+                    <ul>
+                        <li>JavaScript Guides(MDN)</li>
+                        <li>Udemy Courses: Pro Tip, wait until they go on sale</li>
+                        <li>JavaScript reference guides</li>
+                    </ul>
+                    <p>If you are new, start with the articles on MDN, once you have a firm grasp of the concepts,
+                        on MDN go to the JavaScript Reference page to get more details on individual objects and
+                        statements.
+                    </p>
+                </div>
+                <div>
+                    <h3>What is JavaScript?</h3>
+                    <p>JavaScript is a cross-platform, object-oriented scripting language used to make webpages
+                        interactive (e.g., having
+                        complex animations, clickable buttons, popup menus, etc.). There are also more advanced server
+                        side versions of
+                        JavaScript such as Node.js, which allow you to add more functionality to a website than simply
+                        downloading files (such
+                        as realtime collaboration between multiple computers).
+                        Core JavaScript can be extended for a
+                        variety of purposes by
+                        supplementing it with additional objects; for example:
+                    </p>
+                    <ul>
+                        <li>Client Side JavaScript extends to the core language by supplying objects to control a
+                            browser and its
+                            Document Object Model(DOM).
+                        </li>
+                        <li>
+                            Server side Javascript extends the core language by supplying objects relevant to running
+                            JavaScript on a server.
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>JavaScript and Java</h3>
+                    <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The
+                        JavaScript language
+                        resembles Java but does not have Java's static typing and strong type checking. JavaScript
+                        follows most Java expression
+                        syntax, naming conventions and basic control-flow constructs which was the reason why it was
+                        renamed from LiveScript to
+                        JavaScript.
+
+                        JavaScript is a very free-form language compared to Java. You do not have to declare all
+                        variables, classes, and
+                        methods. You do not have to be concerned with whether methods are public, private, or protected,
+                        and you do not have to
+                        implement interfaces. Variables, parameters, and function return types are not explicitly typed.
+                        Take a look
+                        below to see some
+                        of the differences between JavaScript and Java.</p>
+                    <h3>JavaScript</h3>
+                    <ul>
+                        <li>Object Oriented</li>
+                        <li>Varible datatypes are not declared</li>
+                        <li>Cannot automatically write to hard disk</li>
+                    </ul>
+                    <h3>Java</h3>
+                    <ul>
+                        <li>Class Based</li>
+                        <li>Varible datatypes must be declared</li>
+                        <li>Can automatically write to hard disk</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Getting Started with JavaScript</h3>
+                    <h4>Hello World</h4>
+                    <code>
+                        (function(){<br>
+                        "use strict";<br>
+                        /* Start of your code */ <br>
+                        function greetMe(yourName) { <br>
+                        alert('Hello ' + yourName); <br>
+                        } <br>
+                        
+                        greetMe('World'); <br>
+                        /* End of your code */ <br>
+                        })(); <br>
+                    </code>
+                    <p>Press CTRL + ENTER to watch it run in your browser</p>
+                </div>
+            </section>
+            <section class="main">
+                <div>
+                    <h1 id="References">References</h1>
+                    <p>See the Full Documentation on <a href="https://www.developer.mozilla.org" target="_blank">MDN</a>
+                    </p>
+                </div>
+            </section>
         </div>
-
-
     </main>
 
     <footer>
