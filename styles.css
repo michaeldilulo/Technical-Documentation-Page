@@ -73,7 +73,6 @@ a.techDoc-sidebar-reference {
 a.nav-link.techDoc-sidebar-reference {
   padding-bottom: 120px;
 }
-
 }
 
 
@@ -81,6 +80,7 @@ a.nav-link.techDoc-sidebar-reference {
 @media screen and (max-width: 400px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+
 /* Sidebar */
 .sidenav {
   height: 40%; /* Full-height: remove this if you want "auto" height */
